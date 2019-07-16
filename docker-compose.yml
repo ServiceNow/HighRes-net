@@ -1,0 +1,39 @@
+version: '3'
+services:
+  save_clearance:
+    build: .
+    volumes:
+    - ./:/usr/src/app
+    entrypoint:
+    - python
+    - /usr/src/app/src/save_clearance.py
+    - --prefix
+    - /usr/src/app/data
+
+
+  tensorboard:
+    image: tensorflow/tensorflow
+    depends_on:
+      - save_clearance
+    ports:
+    - "54124:6006"
+    volumes:
+    - ./:/usr/src/app
+    entrypoint:
+     - tensorboard
+     - --logdir='/usr/src/app/tb_logs/'
+
+  jupyter-notebook:
+     build: .
+     depends_on:
+     - save_clearance
+     ports:
+     - "54123:8888"
+     volumes:
+     - ./:/usr/src/app
+     entrypoint:
+       - jupyter
+       - notebook
+       - --allow-root
+       - --ip=0.0.0.0
+       - --notebook-dir=/usr/src/app

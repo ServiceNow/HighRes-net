@@ -1,0 +1,8 @@
+data/
+__pycache__/
+.pytest_cache/
+src.egg-info/
+.ipynb_checkpoints
+.idea
+venv
+
