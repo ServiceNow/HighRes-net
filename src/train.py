@@ -278,6 +278,7 @@ def main(config):
                                   collate_fn=collateFunction(min_L=min_L),
                                   pin_memory=True)
 
+    config["training"]["create_patches"] = False
     val_dataset = ImagesetDataset(imset_dir=val_list, config=config["training"],
                                   top_k=n_views, beta=beta)
     val_dataloader = DataLoader(val_dataset, batch_size=1,
