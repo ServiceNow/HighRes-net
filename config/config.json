@@ -50,7 +50,7 @@
      "load_lr_maps": false,
      "beta": 50.0,
 
-    "create_patches": false,
+    "create_patches": true,
     "patch_size": 64,
     "val_proportion": 0.10,
     "lambda": 0.000001
