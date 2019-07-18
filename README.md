@@ -27,12 +27,12 @@ If your available GPU memory is less than 32G, try following to reduce the memor
 
 (1) Work with smaller batches (`batch_size` in config.json)
 
-(2) Work with less low-res views (`n_views` and `min_L` in config.json)
+(2) Work with less low-res views (`n_views` and `min_L` in config.json, `min_L` is minimum number of views (`n_views`)) 
 
 According to our experiments, we estimated the memory consumption (in GB) given `batch_size` and `n_views` 
 
 
-|   `batch_size` \ `n_views`|**32**| **16**| **4**|
+|   `batch_size` \ `n_views` and `min_L`|**32**| **16**| **4**|
 | ----------- |:------:| -----:|  -----:|
 | **32** | 27 | 15 | 6|
 | **16** | 15 | 8 | 4 |
@@ -73,6 +73,9 @@ tensorboard --logdir='tb_logs/'
 #### 3. Test model
 
 - Open jupyter notebook and run notebooks/test_model.ipynb
+- We assume the jupyter notebook server runs in project root directory. If you start it in somewhere else, 
+please change the file path in notebooks accordingly 
+
 
 You could also use docker-compose file to start jypyter notebook and tensorboard
      	
