@@ -43,7 +43,7 @@ According to our experiments, we estimated the memory consumption (in GB) given 
 - Setup a python environment and install dependencies, we need python version >= 3.6.8
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 #### 1. Load [data](https://kelvins.esa.int/proba-v-super-resolution/data/) and save clearance
