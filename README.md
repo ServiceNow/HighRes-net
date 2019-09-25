@@ -4,9 +4,10 @@ Pytorch implementation of HighRes-net, a neural network for multi frame super-re
 
 ## Computer, enhance please!
 
-![alt HRNet in action 1](https://s3.amazonaws.com/element-ai-website-bucket/Header-en.jpg)
 
-![alt HRNet in action 2](https://s3.amazonaws.com/element-ai-website-bucket/assets-v2_resized-5-en.jpg)
+![alt HRNet in action 1](Example_SR_1.jpg)
+
+![alt HRNet in action 2](Example_SR_2.jpg)
 
 **source**: ElementAI blog post [Computer, enhance please!](https://www.elementai.com/news/2019/computer-enhance-please)
 
