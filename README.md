@@ -82,7 +82,7 @@ You could also use docker-compose file to start jypyter notebook and tensorboard
      	
 ## Authors
 
-HighRes-net is based on work by team *Rarefin*, an industrial-academic partnership between [ElementAI](https://www.elementai.com/) AI for Good lab in London ([Zhichao Lin](https://github.com/shexiaogui), [Michel Deudon](https://github.com/MichelDeudon), [Alfredo Kalaitzis](https://twitter.com/alkalait?lang=en-gb), [Julien Cornebise](https://twitter.com/jcornebise?lang=en-gb)) and [Mila](https://mila.quebec/en/) in Montreal ([Israel Goytom](https://twitter.com/igoytom?lang=en-gb), [Kris Sankaran](http://krisrs1128.github.io/personal-site/), [Md Rifat Arefin](https://github.com/rarefin), [Samira E. Kahou](https://twitter.com/samiraekahou?lang=en), [Vincent Michalski](https://twitter.com/v_michalski?lang=en-gb))
+HighRes-net is based on work by team *Rarefin*, an industrial-academic partnership between [ElementAI](https://www.elementai.com/) AI for Good lab in London ([Zhichao Lin](https://github.com/shexiaogui), [Michel Deudon](https://github.com/MichelDeudon), [Alfredo Kalaitzis](https://github.com/alkalait), [Julien Cornebise](https://twitter.com/jcornebise?lang=en-gb)) and [Mila](https://mila.quebec/en/) in Montreal ([Israel Goytom](https://twitter.com/igoytom?lang=en-gb), [Kris Sankaran](http://krisrs1128.github.io/personal-site/), [Md Rifat Arefin](https://github.com/rarefin), [Samira E. Kahou](https://twitter.com/samiraekahou?lang=en), [Vincent Michalski](https://twitter.com/v_michalski?lang=en-gb))
 
 ## License
 This repo is under apache-2.0 and no harm license, please refer our license file
