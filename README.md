@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/highres-net-multi-frame-super-resolution-by/multi-frame-super-resolution-on-proba-v)](https://paperswithcode.com/sota/multi-frame-super-resolution-on-proba-v?p=highres-net-multi-frame-super-resolution-by)
+
 # HighRes-net: Multi Frame Super-Resolution by Recursive Fusion
 
 Pytorch implementation of HighRes-net, a neural network for multi frame super-resolution (MFSR), trained and tested on the [European Space Agency's Kelvin competition](https://kelvins.esa.int/proba-v-super-resolution/home/).
