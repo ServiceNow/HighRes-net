@@ -1,4 +1,4 @@
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/highres-net-multi-frame-super-resolution-by/multi-frame-super-resolution-on-proba-v)](https://paperswithcode.com/sota/multi-frame-super-resolution-on-proba-v?p=highres-net-multi-frame-super-resolution-by)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/highres-net-recursive-fusion-for-multi-frame/multi-frame-super-resolution-on-proba-v)](https://paperswithcode.com/sota/multi-frame-super-resolution-on-proba-v?p=highres-net-recursive-fusion-for-multi-frame)
 
 # HighRes-net: Multi Frame Super-Resolution by Recursive Fusion
 
