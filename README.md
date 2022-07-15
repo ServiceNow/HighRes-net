@@ -1,3 +1,5 @@
+*ServiceNow completed its acquisition of Element AI on January 8, 2021. All references to Element AI in the materials that are part of this project should refer to ServiceNow.*
+
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/highres-net-recursive-fusion-for-multi-frame/multi-frame-super-resolution-on-proba-v)](https://paperswithcode.com/sota/multi-frame-super-resolution-on-proba-v?p=highres-net-recursive-fusion-for-multi-frame)
 
 # HighRes-net: Multi Frame Super-Resolution by Recursive Fusion
