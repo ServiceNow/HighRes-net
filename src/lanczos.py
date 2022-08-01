@@ -36,7 +36,7 @@ def lanczos_kernel(dx, a=3, N=None, dtype=None, device=None):
     if (N is None) or (N < S_max):
         N = S
 
-    Z = (N - S) // 2  # width of zeros beyond kernel support
+    Z = torch.div((N - S), 2, rounding_mode='trunc')  # width of zeros beyond kernel support
 
     start = (-(a + D + Z)).min()
     end = (a + D + Z + 1).max()
